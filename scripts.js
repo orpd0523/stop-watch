@@ -20,6 +20,16 @@ start.addEventListener("click", () => {
 
 //create function for stop variable
 //add eventlistener
+stop.addEventListener("click", () => {
+  clearInterval(count);
+  console.log("I am stopping");
+});
 
 //create function for reset variable
 //add eventlistener
+reset.addEventListener("click", () => {
+  clearTimeout(count);
+  i = 0;
+  timer.innerHTML = i;
+  console.log("I am resetting");
+});
