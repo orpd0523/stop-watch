@@ -29,32 +29,32 @@ body {
   width: 15rem;
 }
 
-.title{
-    padding-left: 1.25rem;
+.title {
+  padding-left: 1.25rem;
 }
 
-#timer{
-    color: rgb(0, 255, 0);
-    padding-left: 5.55rem;
-    margin-top: 2rem;
-    font-size: 2rem;
-    height: 1rem;
+#timer {
+  color: rgb(0, 255, 0);
+  padding-left: 5.55rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  height: 1rem;
 }
 
-.container{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.container {
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
-.button{
-    background-color: rgb(255, 255, 123);
-    height: 2.5rem;
-    width: 3.5rem;
-    border: none;
-    margin-right: .25rem;
-  }
+.button {
+  background-color: rgb(255, 255, 123);
+  height: 2.5rem;
+  width: 3.5rem;
+  border: none;
+  margin-right: 0.25rem;
+}
 
-.description{
-    color: rgb(100, 95, 95);
-    font-weight: bold;
+.description {
+  color: rgb(100, 95, 95);
+  font-weight: bold;
 }
