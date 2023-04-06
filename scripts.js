@@ -14,22 +14,22 @@ start.addEventListener("click", () => {
   count = setInterval(() => {
     i++; //adding 1 to i variable that starts at 0
     timer.innerHTML = i; //writing JS into HTML to show in browser
-    console.log("I started counting"); //showing in console to check if it is working
+    // console.log("I started counting"); //showing in console to check if it is working
   }, 1000);
 });
 
 //create function for stop variable
 //add eventlistener
 stop.addEventListener("click", () => {
-  clearInterval(count);
-  console.log("I am stopping");
+  clearInterval(count); //stops setInterval
+  //   console.log("I am stopping");
 });
 
 //create function for reset variable
 //add eventlistener
 reset.addEventListener("click", () => {
-  clearTimeout(count);
-  i = 0;
-  timer.innerHTML = i;
-  console.log("I am resetting");
+  clearTimeout(count); //cancel previous time set
+  i = 0; //variable starts at 0
+  timer.innerHTML = i; //writing JS into HTML to show in browser, will show 0
+  //   console.log("I am resetting");
 });
